@@ -1,0 +1,22 @@
+{
+  "metadata": {
+    "input_documents": [
+      "AcceleratingDrugDiscoverywithGraphNeuralNetworksandMolecularPropertyPrediction.pdf",
+      "fphar-15-1393415.pdf",
+      "test case 1 1b papper 2.pdf",
+      "test case 1 1b.pdf"
+    ],
+    "persona": {
+      "role": "PhD Researcher in Computational Biology",
+      "expertise": [
+        "Graph Neural Networks",
+        "Drug Discovery",
+        "Bioinformatics"
+      ]
+    },
+    "job_to_be_done": "Prepare a comprehensive literature review focusing on methodologies, datasets, and performance benchmarks",
+    "processing_timestamp": "2025-07-28T19:54:13Z"
+  },
+  "extracted_sections": [],
+  "subsection_analysis": []
+}

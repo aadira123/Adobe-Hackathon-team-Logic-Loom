@@ -1,0 +1,33 @@
+# Python specific ignores
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+*.egg-info/
+.pytest_cache/
+.tox/
+.mypy_cache/
+.ipynb_checkpoints/ # Jupyter Notebook checkpoints
+*.egg
+build/
+dist/
+.env # Environment variables file
+
+# IDE specific ignores (e.g., VS Code)
+.vscode/
+
+# Operating System specific ignores
+.DS_Store    # macOS specific
+Thumbs.db    # Windows specific
+
+# Project-specific ignores
+# Ignore the generated JSON output files and the entire output directory
+output/
+
+# Ignore any log files or temporary files if generated in the root
+*.log
+*.tmp
+*.zip # If your project generates zip archives in the root

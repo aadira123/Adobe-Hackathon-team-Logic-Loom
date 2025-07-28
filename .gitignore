@@ -1,0 +1,53 @@
+# Python specific ignores
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+env/
+.env                 # Common for environment variables
+
+# Distribution / packaging
+.Python
+*.egg
+*.egg-info/
+build/
+dist/
+develop-eggs/
+.installed_egg_info/
+
+# Unit test / coverage
+.pytest_cache/
+.tox/
+.coverage
+.coverage.*
+
+# MyPy
+.mypy_cache/
+
+# Jupyter Notebook specific ignores (if you use them, which you seem to based on past files)
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+
+# IDE specific ignores
+.vscode/             # VS Code settings and temporary files
+.idea/               # PyCharm/IntelliJ IDEA
+*.iml                # IntelliJ IDEA module files
+
+# Operating System specific ignores
+.DS_Store            # macOS specific
+Thumbs.db            # Windows specific
+desktop.ini          # Windows specific
+
+# Project-specific generated files
+# The 'output' directory contains generated JSON results from both main.py versions
+# and should NOT be tracked by Git.
+output/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.zip                # If your project generates zip archives in the root
